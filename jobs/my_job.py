@@ -9,6 +9,6 @@ class SimpleLogJob(Job):
         description="The message to log."
     )
 
-    def run(self,**kwargs):
-        self.logger.info(str(kwargs))
-        return kwargs
+    def run(self,**ggg):
+        self.logger.info(str(ggg))
+        return ggg
